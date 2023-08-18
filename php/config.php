@@ -5,6 +5,11 @@ $user = " id21127280_root";
 $pass = "Oni1ecram@riwa";
 $dbname ="id21127280_log_acc";
 
+// $host = "localhost";
+// $user = "root";
+// $pass = "";
+// $dbname ="login_acc";
+
 $conn = mysqli_connect($host, $user, $pass, $dbname);
 
 if(! $conn){
